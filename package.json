@@ -1,0 +1,24 @@
+{
+  "name": "modelo-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "echo ------------------------------------ && echo ATENTI! Debe agregar el numero de ejercicio. && echo por ejemplo: dev:01 && echo ------------------------------------",
+    "dev:01": "cd 01 && node --watch index.mjs",
+    "dev:02": "cd 02 && node --watch index.mjs",
+    "dev:03": "cd 03 && node --watch index.mjs",
+    "dev:04": "cd 04 && node --watch index.mjs",
+    "dev:05": "cd 05 && node --watch index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
